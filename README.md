@@ -1,1 +1,1 @@
-# VendorMind AI 
+"# VendorMind AI\nEnterprise Procurement Decision Intelligence Platform" 
