@@ -1,0 +1,29 @@
+MASTER SOFTWARE LICENSE AGREEMENT
+
+This Master Software License Agreement ("Agreement") is entered into by and between Acme Corp ("Licensor") and VendorMind AI ("Licensee") as of the effective date of signing.
+
+1. SCOPE & SOFTWARE LICENSE
+Licensor grants Licensee a non-transferable, non-exclusive license to use the Acme Corp API Integration Suite under the terms specified herein.
+
+2. FEES AND PAYMENT SCHEDULE
+Licensee shall pay Licensor the fees specified in the approved Quotation. The standard payment schedule under this agreement shall be Net 45 upon invoice receipt.
+
+3. SUPPORT AND SLA TERMS
+Licensor will provide support under the standard support onboarding package. Licensor guarantees 99.9% application uptime, with a 2-hour response time for severity-1 tickets.
+
+4. DELAY AND PENALTY CLAUSE
+In the event that Licensor fails to deliver the software system on the agreed timeline, a penalty of 0.5% penalty per week of delay in system delivery, capped at 10% of total order value, shall apply.
+
+5. WARRANTY TERMS
+Licensor warrants that the software will perform substantially in accordance with the user documentation for a duration of a 2-year limited liability software warranty.
+
+6. CONFIDENTIALITY CLAUSE
+Standard confidentiality clause applies for a duration of 5 years. Neither party shall disclose the proprietary information of the other party to third parties.
+
+7. TERMINATION CLAUSE
+Either party may terminate this Agreement without cause upon 30 days written notice required for termination without cause.
+
+8. LIABILITY LIMIT
+The maximum aggregate liability of Licensor under this Agreement is capped at 100% of the total amount paid under the contract.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement.

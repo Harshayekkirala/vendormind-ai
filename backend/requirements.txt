@@ -6,3 +6,6 @@ python-multipart
 google-generativeai
 langchain
 chromadb
+pypdf
+groq
+fpdf2

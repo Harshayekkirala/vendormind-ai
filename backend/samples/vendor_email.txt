@@ -1,0 +1,23 @@
+Subject: RE: Procurement Bid Proposal - Acme Corp API Integration Suite
+From: sales@acmecorp.com
+To: harsh.y@vendormind.ai
+Date: 2026-06-25 10:14:00
+Urgency: High
+
+Dear Harsh,
+
+Thank you for reaching out regarding our quote for the Acme Corp API Integration Suite.
+
+To address your query regarding volume discounts, we are pleased to confirm that we can offer a 10% volume discount on all API license units if the order quantity exceeds 50 units. 
+
+Additionally, per your request to match competitor warranties, Acme Corp will guarantee a 2-year limited software warranty instead of our standard 1-year warranty, provided the contract is finalized and executed before the end of Q3.
+
+For implementation support, we have included our Premium SLA Onboarding Support Pack (regularly $5,000) in the quote, but as discussed in our sync meeting, we will waive this fee entirely if we sign this month.
+
+If you have any questions or need standard contract adjustments, please contact me at sales@acmecorp.com or +1-800-555-0199. We are ready to fast-track this integration as soon as the terms are approved.
+
+Best regards,
+
+John Doe
+Director of Accounts
+Acme Corp

@@ -1,0 +1,40 @@
+========================================================================
+                         ACME CORP - QUOTATION
+========================================================================
+Quote Number: AQ-2026-98122
+Date: 2026-06-24
+Valid Until: 2026-07-24
+Prepared For: Harshayekkirala / VendorMind AI
+Vendor Name: Acme Corp
+
+------------------------------------------------------------------------
+LINE ITEMS:
+------------------------------------------------------------------------
+Item 1:
+Description  : Enterprise API Integration Suite Licenses
+Quantity     : 100
+Unit Price   : $1,200.00 USD
+Total Price  : $120,000.00 USD
+
+Item 2:
+Description  : Premium SLA Onboarding Support Pack
+Quantity     : 1
+Unit Price   : $5,000.00 USD
+Total Price  : $5,000.00 USD
+
+------------------------------------------------------------------------
+SUMMARY:
+------------------------------------------------------------------------
+Subtotal     : $125,000.00 USD
+Tax (GST 4%) : $5,000.00 USD
+Total Amount : $125,000.00 USD
+
+------------------------------------------------------------------------
+TERMS & CONDITIONS:
+------------------------------------------------------------------------
+- Warranty Period: 1-year manufacturer warranty from activation date.
+- Delivery Timeline: FOB Destination, delivered within 14 calendar days.
+- Payment Terms: Net 45 days.
+
+Thank you for your business!
+========================================================================

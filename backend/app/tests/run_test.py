@@ -43,19 +43,27 @@ async def test_planner_chain():
             status_symbol = "[ FAIL  ]"
         elif state.status == AgentStatusEnum.RUNNING:
             status_symbol = "[  RUN  ]"
+        elif state.status == AgentStatusEnum.SKIPPED:
+            status_symbol = "[ SKIP  ]"
         
         duration_str = f"({state.duration_ms}ms)" if state.duration_ms is not None else ""
         err_str = f" - Error: {state.error_message}" if state.error_message else ""
-        print(f"{status_symbol} {state.agent_name:<22} : {state.status.value.upper():<10} {duration_str}{err_str}")
+        print(f"{status_symbol} {state.agent_name:<34} : {state.status.value.upper():<10} {duration_str}{err_str}")
     print("=" * 60)
     
     print("\n[RESULTS] KEY RESULTS:")
-    print(f"Price                    : {result_state.quote_data.price if result_state.quote_data else 'None'}")
-    print(f"Payment Terms            : {result_state.contract_data.payment_terms if result_state.contract_data else 'None'}")
-    print(f"Risk Category            : {result_state.risk_assessment.risk_level if result_state.risk_assessment else 'None'} ({result_state.risk_assessment.risk_score if result_state.risk_assessment else 0}%)")
+    print(f"Price                    : {result_state.quote_data.total_amount if result_state.quote_data else 'None'}")
+    print(f"Payment Schedule         : {result_state.contract_data.payment_schedule if result_state.contract_data else 'None'}")
+    print(f"Risk Category            : {result_state.risk_assessment.risk_level if result_state.risk_assessment else 'None'} ({result_state.risk_assessment.overall_risk if result_state.risk_assessment else 0}%)")
     print(f"Reason Summary           : {result_state.reasoning.situation_summary[:120] if result_state.reasoning else 'None'}...")
-    print(f"Recommendation           : {result_state.next_best_action.recommendation if result_state.next_best_action else 'None'}")
-    print(f"Confidence               : {result_state.next_best_action.confidence if result_state.next_best_action else 0}%")
+    
+    if result_state.next_best_action and result_state.next_best_action.recommendations:
+        rec = result_state.next_best_action.recommendations[0]
+        print(f"Recommendation           : {rec.get('action')}")
+        print(f"Confidence               : {rec.get('confidence')}%")
+    else:
+        print("Recommendation           : None")
+        print("Confidence               : 0%")
 
 if __name__ == "__main__":
     asyncio.run(test_planner_chain())
